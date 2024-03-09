@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS comment_likes (
+    likeId INTEGER PRIMARY KEY AUTOINCREMENT,
+    commentId INTEGER NOT NULL,
+    userId INTEGER NOT NULL,
+    FOREIGN KEY (commentId) REFERENCES comments (commentId) ON DELETE CASCADE,
+    FOREIGN KEY (userId) REFERENCES users (userId) ON DELETE CASCADE
+);

@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Introduction to Create React App
+This project was initialized using Create React App.
 
-## Getting Started
+Scripts Overview
+Within the project directory, you have the following scripts at your disposal:
 
-First, run the development server:
+npm start
+Launches the application in development mode.
+Visit http://localhost:3000 to view it in your browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The page will automatically reload upon making changes.
+Lint errors, if any, will be displayed in the console.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+npm test
+Activates the test runner in interactive watch mode.
+Refer to the running tests section for additional details.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run build
+Compiles the application for production into the build folder.
+It effectively bundles React in production mode, optimizing the build for optimal performance.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The build is minified, and file names include hashes.
+Your application is now ready for deployment!
 
-## Learn More
+For further information on deployment, consult the deployment documentation.
 
-To learn more about Next.js, take a look at the following resources:
+npm run eject
+Note: This is an irreversible action. Once you eject, there is no turning back!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you find the build tool and configuration choices unsatisfactory, you can execute eject at any time. This command removes the single build dependency from your project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Instead, it copies all configuration files and transitive dependencies (webpack, Babel, ESLint, etc.) directly into your project, granting you full control. All commands, excluding eject, will continue to function, now pointing to the copied scripts for customization. At this stage, you're on your own.
 
-## Deploy on Vercel
+Remember, using eject is not mandatory. The curated feature set is designed for small and medium deployments. Feel free to make use of this feature when you're prepared for it.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Further Resources
+Explore more details in the Create React App documentation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To delve into React itself, refer to the React documentation.
+
+Code Splitting
+Find information about code splitting here.
+
+Analyzing Bundle Size
+Details on analyzing bundle size have been relocated here.
+
+Creating a Progressive Web App
+Instructions for creating a Progressive Web App have been moved here.
+
+Advanced Configuration
+Advanced configuration details can be found here.
+
+Deployment Guidelines
+Deployment guidelines are available here.
+
+Troubleshooting Minification Issues

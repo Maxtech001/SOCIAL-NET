@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS followers (
+    userId INTEGER NOT NULL,
+    followerId INTEGER NOT NULL,
+    isRequest BOOLEAN NOT NULL,
+    FOREIGN KEY (userId) REFERENCES users (userId) ON DELETE CASCADE,
+    FOREIGN KEY (followerId) REFERENCES users (userId) ON DELETE CASCADE
+);

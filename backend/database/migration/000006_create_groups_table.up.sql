@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `groups` (
+    `groupId` INTEGER PRIMARY KEY AUTOINCREMENT,
+    `userId` INTEGER NOT NULL,
+    `title` TEXT NOT NULL,
+    `description` TEXT NOT NULL,
+    `img` TEXT,
+    `created` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (userId) REFERENCES users (userId) ON DELETE CASCADE
+);
